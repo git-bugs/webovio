@@ -1,0 +1,41 @@
+.lets {
+  margin-top: -161px;
+  display: none;
+}
+.lets-wrapper {
+  background: #fafafa;
+  box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
+  padding: 70px 0;
+  position: relative;
+  &::before{
+    position: absolute;
+    content: '';
+    width: 165px;
+    height: 100%;
+    left: -165px;
+    top: 0;
+    background: #fafafa;
+
+  }
+}
+.lets-box {
+}
+.lets-title {
+  line-height: 1.233;
+  font-size: 60px;
+  max-width: 822px;
+  margin-bottom: 50px;
+}
+.lets-link {
+  color: #D4D6D4;
+  span{
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .line {
+    margin-left: 2px;
+    &::before{
+      background: #D4D6D4;
+    }
+  }
+}

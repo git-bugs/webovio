@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+// @import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+
+@import 'main.scss';
+@import 'labels.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'solutions.scss';
+@import 'lets.scss';
+@import 'footer.scss';
+
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
+
+body {
+  font-size: 16px;
+  line-height: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #4d533c;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+
+.container-secondary {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.line {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    height: 1px;
+    width: 105%;
+  }
+}
